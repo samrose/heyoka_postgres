@@ -1,0 +1,13 @@
+   <header>
+	<title>Heyoka|<%= @title %></title>
+        <%logo = image_tag("heyokatrickster.jpg", :alt => "Heyoka", :class => "round") %>
+	 <%= link_to logo, root_path %>
+        <nav class="round">
+          <ul>
+            <li><%= link_to "Home", root_path %></li>
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Sign in", signup_path %></li>
+          </ul>
+        </nav>
+      </header>
+

@@ -1,0 +1,24 @@
+# == Schema Information
+# Schema version: 20101023152623
+#
+# Table name: datasources
+#
+#  id          :integer         not null, primary key
+#  uri         :string(255)
+#  source_type :string(255)
+#  user_id     :integer
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  uri: MyString
+  source_type: MyString
+  user_id: 1
+
+two:
+  uri: MyString
+  source_type: MyString
+  user_id: 1
